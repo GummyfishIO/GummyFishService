@@ -1,0 +1,17 @@
+/Users/christian/Projects/gummyfishNameService/gummyfishNameService/bin/Debug/netcoreapp2.1/appsettings.Development.json
+/Users/christian/Projects/gummyfishNameService/gummyfishNameService/bin/Debug/netcoreapp2.1/appsettings.json
+/Users/christian/Projects/gummyfishNameService/gummyfishNameService/bin/Debug/netcoreapp2.1/Properties/launchSettings.json
+/Users/christian/Projects/gummyfishNameService/gummyfishNameService/bin/Debug/netcoreapp2.1/gummyfishService.deps.json
+/Users/christian/Projects/gummyfishNameService/gummyfishNameService/bin/Debug/netcoreapp2.1/gummyfishService.runtimeconfig.json
+/Users/christian/Projects/gummyfishNameService/gummyfishNameService/bin/Debug/netcoreapp2.1/gummyfishService.runtimeconfig.dev.json
+/Users/christian/Projects/gummyfishNameService/gummyfishNameService/bin/Debug/netcoreapp2.1/gummyfishService.dll
+/Users/christian/Projects/gummyfishNameService/gummyfishNameService/bin/Debug/netcoreapp2.1/gummyfishService.pdb
+/Users/christian/Projects/gummyfishNameService/gummyfishNameService/obj/Debug/netcoreapp2.1/gummyfishService.csprojAssemblyReference.cache
+/Users/christian/Projects/gummyfishNameService/gummyfishNameService/obj/Debug/netcoreapp2.1/gummyfishService.csproj.CoreCompileInputs.cache
+/Users/christian/Projects/gummyfishNameService/gummyfishNameService/obj/Debug/netcoreapp2.1/gummyfishService.RazorAssemblyInfo.cache
+/Users/christian/Projects/gummyfishNameService/gummyfishNameService/obj/Debug/netcoreapp2.1/gummyfishService.RazorAssemblyInfo.cs
+/Users/christian/Projects/gummyfishNameService/gummyfishNameService/obj/Debug/netcoreapp2.1/gummyfishService.AssemblyInfoInputs.cache
+/Users/christian/Projects/gummyfishNameService/gummyfishNameService/obj/Debug/netcoreapp2.1/gummyfishService.AssemblyInfo.cs
+/Users/christian/Projects/gummyfishNameService/gummyfishNameService/obj/Debug/netcoreapp2.1/gummyfishService.RazorTargetAssemblyInfo.cache
+/Users/christian/Projects/gummyfishNameService/gummyfishNameService/obj/Debug/netcoreapp2.1/gummyfishService.dll
+/Users/christian/Projects/gummyfishNameService/gummyfishNameService/obj/Debug/netcoreapp2.1/gummyfishService.pdb
