@@ -40,6 +40,20 @@ namespace gummyfishNameService.Controllers
         }
 
         
+        [Route("cities")]  // Example: https://localhost:44331/api/values/cities
+        [HttpGet]
+        public ActionResult<IEnumerable<string>> GetCityNames()
+        {
+            return new string[] { "City", "Names", "I", "love", "you." };
+        }
+
+        [Route("npcs")]     // Example: https://localhost:44331/api/values/npcs
+        [HttpGet]
+        public ActionResult<IEnumerable<string>> GetNpcNames()
+        {
+            return new string[] { "NPC", "Names", "I", "love", "you." };
+        }
+
         [HttpPost]
         public void Post([FromBody] string value)
         {
