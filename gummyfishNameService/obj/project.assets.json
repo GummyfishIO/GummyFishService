@@ -11799,23 +11799,23 @@
     ]
   },
   "packageFolders": {
-    "/Users/christian/.nuget/packages/": {},
+    "/Users/jessicabrookhouse/.nuget/packages/": {},
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/christian/Projects/gummyfishNameService/gummyfishNameService/gummyfishService.csproj",
+      "projectUniqueName": "/Users/jessicabrookhouse/Repositories/GummyFishService/gummyfishNameService/gummyfishService.csproj",
       "projectName": "gummyfishService",
-      "projectPath": "/Users/christian/Projects/gummyfishNameService/gummyfishNameService/gummyfishService.csproj",
-      "packagesPath": "/Users/christian/.nuget/packages/",
-      "outputPath": "/Users/christian/Projects/gummyfishNameService/gummyfishNameService/obj/",
+      "projectPath": "/Users/jessicabrookhouse/Repositories/GummyFishService/gummyfishNameService/gummyfishService.csproj",
+      "packagesPath": "/Users/jessicabrookhouse/.nuget/packages/",
+      "outputPath": "/Users/jessicabrookhouse/Repositories/GummyFishService/gummyfishNameService/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/christian/.config/NuGet/NuGet.Config"
+        "/Users/jessicabrookhouse/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
@@ -11864,7 +11864,8 @@
           "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
       }
     }
   }
