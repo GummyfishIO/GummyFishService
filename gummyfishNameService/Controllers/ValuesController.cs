@@ -46,7 +46,7 @@ namespace gummyfishNameService.Controllers
 
         }
 
-        // GET api/values
+        // GET api/values/cities
         [Route("cities")]
         [HttpGet]
 
@@ -70,9 +70,7 @@ namespace gummyfishNameService.Controllers
 
                 string NamecityPre = cityPre[rc.Next(cityPre.Length)];
                 string NamecityPos = cityPos[rc.Next(cityPos.Length)].ToLower();
-                string NamecityPre2 = cityPre[rc.Next(cityPre.Length)];
-                string NamecityPos2 = cityPos[rc.Next(cityPos.Length)];
-
+                
 
 
 
@@ -83,9 +81,21 @@ namespace gummyfishNameService.Controllers
         }
 
 
-        [HttpPost]
-        public void Post([FromBody] string value)
+       
+        //get api/values/citiesSpaced
+        [Route("citiesSpaced")]
+        [HttpGet]
+        public ActionResult<IEnumerable<string>> GetCities()
         {
+            { Random rcs = new Random();
+                string[] cityPre = { "Beacon", "North", "South", "West", "East", "Northern", "Southern", "Eastern", "Western", "Noble", "King", "Twin", "Prince", "Mason", "Double", "Tawdry", "Tipton", "Embris", "Ember", "Nar", "High", "Thunder", "Sleeping", "Moon", "Sun", "Hollow", "Hallow", "Honey", "Amber", "Stone", "Gleaming", "Glow", "Light", "Flint", "Anvil", "Archer", "Dragon", "Bard", "Dark", "New", "Old", "Shadow", "Spindle", "Shade", "Fairy", "Fae", "Sharp", "Shaw", "Hammer", "Honed", "Queen", "Ray", "Bane", "Bone", "Show", "Sheen", "Eagle", "Flight", "Fane", "Fame", "Farrow", "Gold", "Grey", "Black", "Bless", "Blade", "Blood", "Blind" };
+                string[] cityPos = { "Cove", "Port", "Shire", "Shore", "Bluff", "Borough", "County", "Stables", "Farm", "Pub", "Inn", "Manor", "Landing", "Cobble", "Village", "County", "Pond", "Town", "Square", "Vin", "Ville", "Vein", "Von", "Sierra", "Creek", "Drove", "Valley", "Narrows", "Field", "Bell", "Spelton", "Host", "Horn", "Moor", "Front", "Shear", "Den", "Stormton", "Watch", "Tower", "Point", "Ford", "Vale", "Falls", "Thorn", "Burrow", "Burrows" };
+
+                string NamecityPre2 = cityPre[rcs.Next(cityPre.Length)];
+                string NamecityPos2 = cityPos[rcs.Next(cityPos.Length)];
+
+                return new string[] { NamecityPre2, NamecityPos2 };
+            }
         }
 
         // PUT api/values/5
