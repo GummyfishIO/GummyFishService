@@ -33,7 +33,7 @@ jobs:
     - name: Push image to Docker Hub
       run: docker push bossmojoman/gummyfishservice
     
-    - name: Update deployment file
+    - name: Update deployment file -breaking here
       run: TAG=$(echo $GITHUB_SHA | head -c7) && sed -i 's|<IMAGE>|bossmojoman/gummyfishservice:${TAG}|' $GITHUB_WORKSPACE/k8s/deployment.yml
 
     - name: Save DigitalOcean kubeconfig
