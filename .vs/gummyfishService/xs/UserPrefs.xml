@@ -1,24 +1,10 @@
 ﻿<Properties StartupConfiguration="{E01DEF39-F2C6-4B3B-B168-5C6B2C99567D}|gummyfishNameService">
-  <MonoDevelop.Ide.Workbench ActiveDocument="gummyfishNameService/Properties/launchSettings.json">
+  <MonoDevelop.Ide.Workbench ActiveDocument="gummyfishNameService/Controllers/ValuesController.cs">
     <Files>
-      <File FileName="gummyfishNameService/Controllers/ValuesController.cs" Line="6" Column="1" />
-      <File FileName="gummyfishNameService/Program.cs" />
+      <File FileName="gummyfishNameService/Program.cs" Line="1" Column="1" />
       <File FileName="gummyfishNameService/Properties/launchSettings.json" Line="38" Column="2" />
+      <File FileName="gummyfishNameService/Controllers/ValuesController.cs" Line="74" Column="1" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="gummyfishService" expanded="True">
-            <Node name="gummyfishService" expanded="True">
-              <Node name="Controllers" expanded="True" />
-              <Node name="Properties" expanded="True">
-                <Node name="launchSettings.json" selected="True" />
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

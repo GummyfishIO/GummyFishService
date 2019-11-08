@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "/Users/jessicabrookhouse/Repositories/GummyFishService/gummyfishNameService/gummyfishService.csproj": {}
+    "/Users/christian/Projects/temp/GummyFishService/gummyfishNameService/gummyfishService.csproj": {}
   },
   "projects": {
-    "/Users/jessicabrookhouse/Repositories/GummyFishService/gummyfishNameService/gummyfishService.csproj": {
+    "/Users/christian/Projects/temp/GummyFishService/gummyfishNameService/gummyfishService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jessicabrookhouse/Repositories/GummyFishService/gummyfishNameService/gummyfishService.csproj",
+        "projectUniqueName": "/Users/christian/Projects/temp/GummyFishService/gummyfishNameService/gummyfishService.csproj",
         "projectName": "gummyfishService",
-        "projectPath": "/Users/jessicabrookhouse/Repositories/GummyFishService/gummyfishNameService/gummyfishService.csproj",
-        "packagesPath": "/Users/jessicabrookhouse/.nuget/packages/",
-        "outputPath": "/Users/jessicabrookhouse/Repositories/GummyFishService/gummyfishNameService/obj/",
+        "projectPath": "/Users/christian/Projects/temp/GummyFishService/gummyfishNameService/gummyfishService.csproj",
+        "packagesPath": "/Users/christian/.nuget/packages/",
+        "outputPath": "/Users/christian/Projects/temp/GummyFishService/gummyfishNameService/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/jessicabrookhouse/.config/NuGet/NuGet.Config"
+          "/Users/christian/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
