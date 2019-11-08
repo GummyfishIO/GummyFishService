@@ -33,8 +33,8 @@ jobs:
     - name: Push image to Docker Hub
       run: docker push bossmojoman/gummyfishservice
     
-    # - name: Update deployment file -breaking here
-    #   run: TAG=$(echo $GITHUB_SHA | head -c7) && sed -i 's|<TAG>|$GITHUB_SHA|' $GITHUB_WORKSPACE/k8s/deployment.yml
+    - name: Update deployment file -breaking here
+      run: TAG=$(echo $GITHUB_SHA | head -c7) && sed -i 's|bossmojoman/gummyfishservice|bossmojoman/gummyfishservice:${TAG}|' $GITHUB_WORKSPACE/k8s/deployment.yml
 
     - name: Save DigitalOcean kubeconfig
       uses: digitalocean/action-doctl@master
