@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
       - name: gummyfish-service
-        image: bossmojoman/gummyfishservice:<TAG>
+        image: bossmojoman/gummyfishservice:latest
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8080
